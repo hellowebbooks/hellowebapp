@@ -1,8 +1,14 @@
-# Hello Web App: Intro to web app development using Python and Django
+## Hello Web App: Intro to web app development using Python and Django
 
-Hi, I'm Tracy! 
+Hi, I'm Tracy! This is the GitHub repository for HelloWebApp.com's open source
+files.
 
-Hi, I'm Tracy!
+### Contents (coming soon)
+
+* How to install Python and Django onto your computer
+* Using git and basic git commands
+
+### Introduction to Hello Web App 
 
 In January 2011, [I taught myself Python and Django and launched my first web app in six weeks](http://www.limedaring.com/im-a-designer-who-learned-django-and-launched-her-first-webapp-in-6-weeks/).
 

@@ -22,22 +22,28 @@ the more you work on your web app using this tutorial, the more you'll get.
 
 Basically, you need to know enough Python to grasp these concepts:
 
-    # Comments (this is an example of one.)
+```python
+# 1. Comments (this is an example of one.)
 
-    # Variables:
-    object = ""
+# 2. Variables
+thing = ""
 
-    # Loops:
-    for thing in group:
-        # do something to thing
+# 3. Loops
+for thing in list_of_things:
+    # Do something to thing
+    do_something(thing)
 
-    # If statements:
-    if object == thing:
-        # do something
-    elif object != thing:
-        # do something else
-    else:
-        # do something different too
+# 4. Conditional statements
+if thing == orange_thing:
+    # Do something orangy
+    squeeze(thing)
+elif thing == potato_thing:
+    # Do something potatoey
+    slice(thing)
+else:
+    # Do something else altogether
+    refrigerate(thing)
+```
 
 Again, try to get through at least exercise 40 of [Learn Python the Hard
 Way](http://learnpythonthehardway.org/) before picking up Hello Web App.

@@ -2,10 +2,12 @@
 
 Hi, I'm Tracy! This is the GitHub repository for [HelloWebApp.com](http://hellowebapp.com)'s open source files. Hello Web App is a book to walk right-brained and new programmers through the process of building their first web app using Python and Django - anticipated e-book and paperback book release in July 2014. Sign up to be informed of updates at [HelloWebApp.com](http://hellowebapp.com).
 
-### Contents (coming soon)
+### Contents
 
-* How to install Python and Django onto your computer
-* Using git and basic git commands
+* [How to install Python](https://github.com/limedaring/HelloWebApp/tree/master/installation-instructions)
+* [Learning Python resources](https://github.com/limedaring/HelloWebApp/tree/master/python-tips) - Must have very basic Python and logic knowledge before jumping into Hello Web App.
+* [Starting your Django project](https://github.com/limedaring/HelloWebApp/blob/master/installation-instructions/starting-your-project.md)
+* Using git and basic git commands (coming soon)
 
 ### Introduction to Hello Web App 
 

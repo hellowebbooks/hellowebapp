@@ -1,6 +1,6 @@
 ## Hello Web App: Intro to web app development using Python and Django
 
-Hi, I'm Tracy! This is the GitHub repository for [HelloWebApp.com](http://hellowebapp.com)'s open source files. Hello Web App is a book to walk right-brained and new programmers through the process of building their first web app using Python and Django - anticipated e-book and paperback book release in July 2014. Sign up to be informed of updates at [HelloWebApp.com](http://hellowebapp.com).
+Hi, I'm Tracy! This is the GitHub repository for [HelloWebApp.com](http://hellowebapp.com)'s open source files. Hello Web App is a book to walk right-brained and new programmers through the process of building their first web app using Python and Django. Anticipated release in July 2014 for both the  e-book and paperback book. Sign up to be informed of updates at [HelloWebApp.com](http://hellowebapp.com).
 
 ### Contents
 
@@ -21,6 +21,6 @@ I want to build a introduction to web app programming using Django and Python wh
 
 Requirements will be a very basic overview of Python and programming concepts and basic HTML/CSS knowledge, with recommendations for resources to learn those components quickly. The book will be useful with anyone with these requirements, but I'm also especially interested in young coders, women coders, and designers who want to learn how to launch a web app.
 
-The e-book will also be released DRM-free!
+The e-book will also be released DRM-free.
 
 Follow and ask me questions on Twitter ([@limedaring](http://twitter.com/limedaring)) and follow the project directly at [HelloWebApp.com](http://hellowebapp.com).

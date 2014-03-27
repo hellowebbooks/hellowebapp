@@ -4,17 +4,16 @@
 
 First, are you comfortable with the command line? It's infinitely simpler to
 download and install utilities for your Mac using the command line, so if you
-haven't used the command line before, try out [The Command Line Crash Course](http://cli.learncodethehardway.org/book/) by
-the same author who wrote Learn Python the Hard way. Should only take a day or
-so to go through all the lessons.
+haven't used the command line before, try out [The Command Line Crash
+Course](http://cli.learncodethehardway.org/book/) by the same author who wrote
+[Learn Python the Hard Way](learnpythonthehardway.org). Should only take a day
+or so to go through all the lessons.
 
 ## Installing the correct version of Python
 
 Unfortunately the native Python that comes on Macs isn't great for development,
 so we'll need to install GCC, which'll set your computer up to be able to
 download Python.
-
-### Installing Command Line Tools / XCode
 
 **Do you have XCode installed already? If so, skip this section. Don't know what
 I mean? You likely don't have it installed.**
@@ -41,23 +40,24 @@ environment variable. The `$PATH` environment variable is essentially a list of
 locations your terminal looks for commands in, and we want Homebrew to be at the
 top. 
 
-Run this command in your terminal:
+Run this command in your terminal, which'll do the above for you:
 
 ```
 echo 'export PATH=/usr/local/bin:/usr/local/sbin:$PATH' >> ~/.bashrc
 ```
 
-## Installing Python (finally!)
+## Installing Python
 
-Now that we have Homebrew, we'll use it to download Python. For the purposes of
-this book/tutorial, we're going to download Python 2.7.
+Now that we have Homebrew, we'll use it to download Python 2.7, which is the
+default Python version installed by Homebrew.
 
 ```
 brew install python
 ```
 
 See how nice Homebrew is? Now that you have Python installed, we also need to
-add it to the `$PATH`. Run this command in your terminal:
+add it to the `$PATH`. Run this command in your terminal and it'll do it for you
+like above:
 
 ```
 echo 'export PATH=/usr/local/share/python:$PATH' >> ~/.bashrc
@@ -93,13 +93,14 @@ Yay!
 Another thing we need installed is
 [virtualenv](http://www.virtualenv.org/en/latest/virtualenv.html). virtualenv
 allows you to set up virtual environments for all of your programming projects -
-essentially, bubbles which projects and their package installs from interfering
-with each other. For example, if you install Django 1.6 globally on your
-computer, every project will be using Django 1.6 - and when you upgrade to 1.7,
-you'll upgrade every project as well, potentially breaking them due to
-deprecated features. virtualenv keeps projects in bubbles - you can have one
-project on Django 1.6 and another on 1.7, and they won't interfere with
-eachother.
+essentially, a bubble which wraps around projects and their package installs,
+preventing them from interfering with each other. 
+
+For example, if you install Django 1.6 globally on your computer, every project
+will be using Django 1.6 - and when you upgrade to 1.7, you'll upgrade every
+project as well, potentially breaking them due to deprecated features.
+virtualenv keeps projects separate - you can have one project on Django 1.6 and
+another on 1.7, and they won't interfere with eachother.
 
 We already have pip, so we'll use it to install virtualenv:
 
@@ -121,4 +122,4 @@ You're finished setting up your system!
 
 But wait, you may be thinking - what about installing Django? We're going to
 install Django on a project-by-project basis (within the virtual environment
-provided by virtualenv), so we'll cover that in the next tutorial. 
+provided by virtualenv), so we'll cover that in the next document. 

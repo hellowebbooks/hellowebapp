@@ -8,7 +8,6 @@ outline of the upcoming Hello Web App book. We probably won't cover all topics
 but they're here just in case:
 
 * Introductions
-* Why learn web app development?
 * Best practices for planning your web app.
     * MVPs
     * How to narrow down your scope.
@@ -27,6 +26,7 @@ but they're here just in case:
         * Basic views.
     * Adding static files
     * Inheritance
+    * Named URLs
     * Fun with template tags
 * Adding dynamic data
     * Set up the model

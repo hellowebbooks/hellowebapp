@@ -1,4 +1,4 @@
-# PyCon Tutorial
+# PyCon tutorial
 
 Hello Web App's material will be tested at [PyCon US
 2014](https://us.pycon.org/2014/) in Montreal in a three hour tutorial (yay!)
@@ -44,3 +44,12 @@ but they're here just in case:
 * Editing model information in the website using forms.py
 
 (More coming soon!)
+
+## After the tutorial
+
+Check out [this document for more resources and other tutorials to continue your
+programming
+education](https://github.com/limedaring/HelloWebApp/blob/master/pycon-tutorial/additional-resources.md)
+(big thanks for the folks at [Django Hack &
+Learn](https://www.eventbrite.com/e/django-hack-learn-tickets-9900931954) for
+helping compile this document.)

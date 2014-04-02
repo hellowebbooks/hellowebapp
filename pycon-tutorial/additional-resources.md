@@ -46,19 +46,19 @@ later!
 * **Javascript Frameworks:** jQuery (recommended), Google Closure (very
   advanced, should only be considered for huge applications)
 * **MVC frameworks:** Angular.js, Ember.js, backbone + underscore.js
-* **Frontend templating: **Mustache.js, Handlebars.js
+* **Frontend templating:** Mustache.js, Handlebars.js
 
 ## Picking your DB:
 
-* **SQL: **PostgreSQL (most reliable), MySQL (available on most shared hosting),
+* **SQL:** PostgreSQL (most reliable), MySQL (available on most shared hosting),
   SQLite (convenient for development but do not use for production, will fail
 with more than 1 user)
-* **NoSQL: **MongoDB, Riak, CouchDB, Redis, Cassandra (Probably a good idea to
+* **NoSQL:** MongoDB, Riak, CouchDB, Redis, Cassandra (Probably a good idea to
   avoid these unless you know what you’re doing)
 
 ## Cool Django Plugins:
 
-* **South: **useful for dealing with django migrations (built into Django since
+* **South:** useful for dealing with django migrations (built into Django since
   1.7) - data migration, so you can add new info to your models and have your
 databases smoothly add extra columns without breaking extra data.
 * **Celery:** Useful for creating tasks that can be scheduled or creating
@@ -68,7 +68,7 @@ databases smoothly add extra columns without breaking extra data.
   [https://pypi.python.org/pypi/django-registration](https://pypi.python.org/pypi/django-registration)
 * Working with images? Use **Pillow**:
   [https://pypi.python.org/pypi/Pillow/2.3.0](https://pypi.python.org/pypi/Pillow/2.3.0)
-* **Tastypie: **API creation. https://django-tastypie.readthedocs.org/en/latest/	
+* **Tastypie:** API creation. https://django-tastypie.readthedocs.org/en/latest/	
 * Find more at
   [https://www.djangopackages.com/](https://www.djangopackages.com/) !
 
@@ -114,24 +114,24 @@ databases smoothly add extra columns without breaking extra data.
         * **Vim tutorials:** (MacVim allows you to do regular commands like ctrl-v and using your mouse along with vim commands, which makes vim easier to use for beginners)
             * [http://www.danielmiessler.com/study/vim/](http://www.danielmiessler.com/study/vim/)
             * http://www.openvim.com/tutorial.html
-* **Python IDEs: **Pycharm, xcode, eclipse, anaconda 
+* **Python IDEs:** Pycharm, xcode, eclipse, anaconda 
 * **Handing development environments:** virtualenvwrapper
     * Note: there’s a lot of configuration if you’re using a non standard filepath and not particularly recommended with Anaconda
 * **Handling python requirements:** pip, easy_install
 * **Database inspection:** SequelPro, Mongohub
 * **Python Shells:** ipython, bpython
-* **Editing on a remote server: **Macfusion, ssh
-* **PEP8: **Not quite a tool, but make sure your Python code is pretty and usable by using the Python Style Guide: http://legacy.python.org/dev/peps/pep-0008/
+* **Editing on a remote server:** Macfusion, ssh
+* **PEP8:** Not quite a tool, but make sure your Python code is pretty and usable by using the Python Style Guide: http://legacy.python.org/dev/peps/pep-0008/
 
 ## Starting a new project? Some general advice:
 
-* **Launch Quickly! **
-    * **Figure out your MVP **(minimum viable product) — the very smallest set of features you’d need to have a workable app, and launch.
+* **Launch Quickly!**
+    * **Figure out your MVP** (minimum viable product) — the very smallest set of features you’d need to have a workable app, and launch.
         * Likely, your future features will change/update once you work with real customers. 
     * Don’t fall in the trap of not launching out of fear, feeling like you don’t have enough features, etc etc. :)
     * Learn to strike a balance between doing things the right way vs. doing things quickly because they need to get done.
     * Unit tests are great! But if your code is changing too quickly, tests may not be useful.
-* **Be careful about database calls **— can severely slow down your web app if you do too many. Database calls are any time you’re pulling info from the database — doing a filter() or model.objects.all(), etc.
+* **Be careful about database calls** — can severely slow down your web app if you do too many. Database calls are any time you’re pulling info from the database — doing a filter() or model.objects.all(), etc.
     * Check out select_related and prefetch_related when you’re making your QuerySets: [https://docs.djangoproject.com/en/dev/ref/models/querysets/#select-related](https://docs.djangoproject.com/en/dev/ref/models/querysets/#select-related)
     * Still too slow? Consider [caching](https://docs.djangoproject.com/en/dev/topics/cache/)
 * **Break it down into the tiniest pieces possible and tackle each piece one-by-one.**

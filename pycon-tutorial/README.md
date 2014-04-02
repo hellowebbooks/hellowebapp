@@ -45,6 +45,16 @@ but they're here just in case:
 
 (More coming soon!)
 
+## Prerequisites 
+
+Make sure you've installed Python and have a very basic understanding of Python
+logic (if-statements, loops, variables, comments, etc.)
+
+* [Python installation
+  instructions](https://github.com/limedaring/HelloWebApp/tree/master/installation-instructions)
+* [Basic Python
+  resources](https://github.com/limedaring/HelloWebApp/tree/master/python-tips) 
+
 ## After the tutorial
 
 Check out [this document for more resources and other tutorials to continue your

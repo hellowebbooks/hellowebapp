@@ -3,6 +3,18 @@
 Hello Web App's material will be tested at [PyCon US
 2014](https://us.pycon.org/2014/) in Montreal in a three hour tutorial (yay!)
 
+## Prerequisites 
+
+Make sure you've installed Python and have a very basic understanding of Python
+logic (if-statements, loops, variables, comments, etc.)
+
+* [Python installation
+  instructions](https://github.com/limedaring/HelloWebApp/tree/master/installation-instructions)
+* [Basic Python
+  resources](https://github.com/limedaring/HelloWebApp/tree/master/python-tips) 
+
+## Outline
+
 Here's the tentative outline for the course, which is pretty much the exact
 outline of the upcoming Hello Web App book. We probably won't cover all topics
 but they're here just in case:
@@ -136,16 +148,6 @@ but they're here just in case:
 * Editing model information in the website using forms.py
 
 (More coming soon!)
-
-## Prerequisites 
-
-Make sure you've installed Python and have a very basic understanding of Python
-logic (if-statements, loops, variables, comments, etc.)
-
-* [Python installation
-  instructions](https://github.com/limedaring/HelloWebApp/tree/master/installation-instructions)
-* [Basic Python
-  resources](https://github.com/limedaring/HelloWebApp/tree/master/python-tips) 
 
 ## After the tutorial
 

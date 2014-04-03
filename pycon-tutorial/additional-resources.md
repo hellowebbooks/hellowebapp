@@ -7,6 +7,11 @@ tutorials, information on databases, and more.
 If you'd like to add anything to this list, just send a pull-request or email me
 at tracy@limedaring.com!
 
+## Django references:
+
+* **[Django built-in template tags](https://docs.djangoproject.com/en/dev/ref/templates/builtins/)**
+* **[Django model fields](https://docs.djangoproject.com/en/dev/ref/models/fields/)**
+
 ## Front-end Design Resources:
 
 * **CSS Frameworks** — helps you with a framework for your website, with widgets

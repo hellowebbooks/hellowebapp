@@ -36,6 +36,7 @@ but they're here just in case:
 * Launching the Django application
     * `startproject`
     * `startapp`
+    * Add app to INSTALLED_APPS in settings.py
     * Start your Django server
 * Playing with templates
     * Set up index.html
@@ -134,14 +135,56 @@ but they're here just in case:
           model.
     * Checking out the Django admin
         * http://localhost:8000/admin/, log in using superuser created earlier.
+        * Add our model to admin.py
+            * `admin.site.register(Object, ObjectAdmin)`
+            * `class ObjectAdmin(admin.ModelAdmin): list_display = ('name','description','created',)`
         * Hello visual view of our database!
         * Add example object using the admin.
 * Viewing our database items in the template
     * Adding database queries to our view.
-    * Filtering fun.
+        * `objects = Object.objects.all()`, pass to template.
+        * Adding a for-loop in our template.
+            * `{% for object in objects %}{{ object.name }}{% endfor %}` etc.
+    * More queryset fun.
+        * Getting the first object.
+            * `first = Object.objects.get(id=1)`
+            * Add to template
+        * Filtering
+            * `matches = Object.objects.filter(name__contains='Thing')`
+            * Add to template
+            * See the rest of Django's queryset filters for more fun!
 * Adding more pages to our website
-    * Homepage
-    * Filtered pages / search
+    * Filtered pages for names
+        * Add a couple more objects into our admin page
+        * Add another URL to urls.py
+            * `url(r'^browse/name/(?P<initial>[-\w]+)/$', 'by_name', name='by_name'),`
+        * Copy a template file to create search.html
+        * Add a basic view
+            * `objects = Objects.objects.filter(name__istartswith=initial).order_by('name')`
+        * Update search.html to loop over the object names.
+    * Specific object pages
+        * Add slug field to models
+            * `slug = models.SlugField()`
+        * Add slug to admin.py
+            * `prepopulated_fields = {"slug": ("name",)}`
+        * Run makemigrations and migrate (might have issue populating new
+          fields)
+        * Add to urls.py
+            * `url(r'^objects/(?P<slug>[-\w]+)/$', 'object_detail', name='object_detail'),`
+        * Add to views.py
+            * `def object_detail(request, slug)`
+            * `object = get_object_or_404(Object, slug=slug)`
+        * Add template page
+        * Link to the individual pages from other templates
+    * Includes
+        * All our object listings are in numerous pages, but we don't want
+          repeating code - hard to maintain.
+        * Create an includes file
+            * Create folder called includes
+            * Make search_result.html
+            * Copy/paste object search result code in.
+        * Add includes code into index and search page
+            * `{% include "includes/search_result.html" %}`
     * Contact form
         * Fun with forms.py
     * Error pages

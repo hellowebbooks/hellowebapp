@@ -11,6 +11,7 @@ at tracy@limedaring.com!
 
 * **[Django built-in template tags](https://docs.djangoproject.com/en/dev/ref/templates/builtins/)**
 * **[Django model fields](https://docs.djangoproject.com/en/dev/ref/models/fields/)**
+* **[Django querysets](https://docs.djangoproject.com/en/dev/ref/models/querysets/)**
 
 ## Front-end Design Resources:
 

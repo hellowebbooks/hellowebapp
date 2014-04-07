@@ -68,7 +68,7 @@ echo 'export PATH=/usr/local/share/python:$PATH' >> ~/.bashrc
 The last thing we need to have installed is [git](http://git-scm.com/), which is
 a version control system. You can work on your programming projects while
 committing versions, allowing you to roll back easily if something you do
-breaks. git also works with GitHub, so you can your save your project to the
+breaks. git also works with GitHub, so you can save your project to the
 "cloud", backing it up as well as allowing others to work on the same project
 with you.
 

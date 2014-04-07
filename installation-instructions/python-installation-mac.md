@@ -55,14 +55,6 @@ default Python version installed by Homebrew.
 brew install python
 ```
 
-See how nice Homebrew is? Now that you have Python installed, we also need to
-add it to the `$PATH`. Run this command in your terminal and it'll do it for you
-like above:
-
-```
-echo 'export PATH=/usr/local/share/python:$PATH' >> ~/.bashrc
-```
-
 ## Installing git
 
 The last thing we need to have installed is [git](http://git-scm.com/), which is

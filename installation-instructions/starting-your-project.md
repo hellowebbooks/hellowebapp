@@ -161,8 +161,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'collection', # this is the app we added, make sure to name it the same as
-yours.
+    'collection', # this is the app we added
 )
 ```
 

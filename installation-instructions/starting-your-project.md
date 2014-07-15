@@ -118,7 +118,7 @@ django-admin.py startapp collection
 Like before, `django-admin.py` is the script, `startapp` is the command, and
 `collection` is the name we're giving the app, which you can change if you wish.
 
-`startapp` will create these additional files and folders:
+`startapp` will create an additional folder and a few files:
 
 ```
 hellowebapp/
@@ -146,6 +146,25 @@ Note the additional "collection" folder in your project.
 
 If that's a bit complicated, don't worry about it yet because we'll review it
 all later when we specifically start working with all those files.
+
+Last but not least, we need to tell the project that we've added an app to it.
+Open up your `settings.py` file (which is under your internal `hellowebapp`
+folder, see the directory tree above).
+
+Find the `INSTALLED_APPS` and add the name of your app to the end of the list:
+
+``` python
+INSTALLED_APPS = (
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'collection', # this is the app we added, make sure to name it the same as
+yours.
+)
+```
 
 ## Run your Django web app
 

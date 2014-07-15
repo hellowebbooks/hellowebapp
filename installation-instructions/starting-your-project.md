@@ -103,7 +103,7 @@ The hellowebapp folder is your top level folder.
   soon.
 * `wsgi.py`: Not needed at this point until you deploy your project.
 
-## Create a Django app
+### Create a Django app
 
 A project can run many apps (all doing something distinct), but we're just going
 to focus on having just one for now, which is all you'll need for a very long

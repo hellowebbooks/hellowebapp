@@ -103,6 +103,50 @@ The hellowebapp folder is your top level folder.
   soon.
 * `wsgi.py`: Not needed at this point until you deploy your project.
 
+## Create a Django app
+
+A project can run many apps (all doing something distinct), but we're just going
+to focus on having just one for now, which is all you'll need for a very long
+time.
+
+In your top level folder (the one with manage.py in it), run this command:
+
+```
+django-admin.py startapp collection
+```
+
+Like before, `django-admin.py` is the script, `startapp` is the command, and
+`collection` is the name we're giving the app, which you can change if you wish.
+
+`startapp` will create these additional files and folders:
+
+```
+hellowebapp/
+    manage.py
+    collection/
+        __init__.py
+        admin.py
+        models.py
+        tests.py
+        views.py
+    hellowebapp/
+        __init__.py
+        settings.py
+        urls.py
+        wsgi.py
+```
+
+Note the additional "collection" folder in your project.
+
+* `__init__.py`: Ignorable.
+* `admin.py`: Contains admin codebits.
+* `models.py`: Where you'll define the dynamic data that'll go in your database.
+* `tests.py`: Tests you'll create to run to test your app automatically.
+* `views.py`: Where the logic goes that powers your website.
+
+If that's a bit complicated, don't worry about it yet because we'll review it
+all later when we specifically start working with all those files.
+
 ## Run your Django web app
 
 Want to see if everything worked? In your terminal, head over to your top level

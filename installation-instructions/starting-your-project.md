@@ -47,7 +47,7 @@ command line, making sure you're in your project folder and the virtual
 environment is activated:
 
 ```
-pip install Django==1.6.2
+pip install Django==1.7.1
 ```
 
 We're telling pip to install a specific version of Django, in case Django

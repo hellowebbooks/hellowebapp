@@ -147,7 +147,9 @@ Note the additional "collection" folder in your project.
 If that's a bit complicated, don't worry about it yet because we'll review it
 all later when we specifically start working with all those files.
 
-Last but not least, we need to tell the project that we've added an app to it.
+### Add your new app to your settings file
+
+We need to tell the project that we've added an app to it.
 Open up your `settings.py` file (which is under your internal `hellowebapp`
 folder, see the directory tree above).
 
@@ -156,17 +158,32 @@ Find the `INSTALLED_APPS` and add the name of your app to the end of the list
 
 ``` python
 INSTALLED_APPS = (
+    'collection', # this is the app we added
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'collection', # this is the app we added
 )
 ```
 
-## Run your Django web app
+## Set up your database
+
+Django 1.7 has some fancypants utilities built in to keep your database (where
+all your dynamic information is stored) managable. We need to run the initial
+migration before we start the app, so in your top level folder (the one with manage.py in it), type this in:
+
+```
+python manage.py migrate
+```
+
+It's going to create your database automatically for you and port over some
+information. Don't worry about understanding this just yet - we'll go over
+databases and migrations a bit more in the "Adding Dynamic Data" chapter of
+Hello Web App.
+
+## Start your Django web app
 
 Want to see if everything worked? In your terminal, head over to your top level
 hellowebapp folder, and run this command:

@@ -32,3 +32,9 @@ Requirements will be a very basic overview of Python and programming concepts an
 The e-book will also be released DRM-free.
 
 Follow and ask me questions on Twitter ([@limedaring](http://twitter.com/limedaring)) and follow the project directly at [HelloWebApp.com](http://hellowebapp.com).
+
+### License
+
+The information in this repository is licensed under the terms of the MIT
+license. This does not apply to the information in the Hello Web App book, which
+is copyrighted. :)

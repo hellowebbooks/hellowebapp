@@ -12,10 +12,17 @@ Make sure to check out the dorky outtakes at the end of the video.
 
 ### Contents
 
+Starting your project:
+
 * [How to install Python](https://github.com/limedaring/HelloWebApp/tree/master/installation-instructions)
 * [Learning Python resources](https://github.com/limedaring/HelloWebApp/tree/master/python-tips) - Must have very basic Python and logic knowledge before jumping into Hello Web App.
 * [Starting your Django project](https://github.com/limedaring/HelloWebApp/blob/master/installation-instructions/starting-your-project.md)
-* Using git and basic git commands (coming soon)
+
+Miscellaneous help:
+
+* [Command line tips](https://github.com/limedaring/HelloWebApp/tree/master/command-line-tips)
+* [Using Git](https://github.com/limedaring/HelloWebApp/tree/master/git-tips)
+* [IRC tips](https://github.com/limedaring/HelloWebApp/tree/master/irc-tips)
 
 ### Introduction to Hello Web App 
 

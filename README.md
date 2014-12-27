@@ -2,14 +2,6 @@
 
 Hi, I'm Tracy! This is the GitHub repository for [HelloWebApp.com](http://hellowebapp.com)'s open source files. Hello Web App is a book to walk right-brained and new programmers through the process of building their first web app using Python and Django. Anticipated release in July 2014 for both the  e-book and paperback book. Sign up to be informed of updates at [HelloWebApp.com](http://hellowebapp.com).
 
-### Kickstarter!
-
-[Hello Web App is raising funds with
-Kickstarter](https://www.kickstarter.com/projects/1868398473/hello-web-app-intro-to-building-web-apps-with-djan),
-with a bunch of fun rewards depending on donation amount!
-
-Make sure to check out the dorky outtakes at the end of the video.
-
 ### Contents
 
 Starting your project:
@@ -18,11 +10,21 @@ Starting your project:
 * [Learning Python resources](https://github.com/limedaring/HelloWebApp/tree/master/python-tips) - Must have very basic Python and logic knowledge before jumping into Hello Web App.
 * [Starting your Django project](https://github.com/limedaring/HelloWebApp/blob/master/installation-instructions/starting-your-project.md)
 
+Walk through the code in Hello Web App's chapters here:
+
+* [Hello Web App Code](https://github.com/limedaring/HelloWebApp-Code)
+
 Miscellaneous help:
 
 * [Command line tips](https://github.com/limedaring/HelloWebApp/tree/master/command-line-tips)
 * [Using Git](https://github.com/limedaring/HelloWebApp/tree/master/git-tips)
 * [IRC tips](https://github.com/limedaring/HelloWebApp/tree/master/irc-tips)
+
+### Kickstarter!
+
+[Hello Web App successfully raised funds with
+Kickstarter!](https://www.kickstarter.com/projects/1868398473/hello-web-app-intro-to-building-web-apps-with-djan),
+Thank you to *all* of our supporters.
 
 ### Introduction to Hello Web App 
 

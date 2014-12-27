@@ -28,7 +28,7 @@ Now that you're within your empty project folder, create your virtual
 environment using virtualenv with this command:
 
 ```
-virtualenv --distribute venv
+virtualenv venv
 ```
 
 And then activate the environment:

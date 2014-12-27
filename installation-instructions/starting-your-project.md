@@ -11,9 +11,10 @@ commands in your terminal to create the projects folder, and a folder within for
 this individual project:
 
 ```
-mkdir projects
-cd projects
-mkdir hellowebapp
+$ mkdir projects
+$ cd projects
+projects $ mkdir hellowebapp
+projects $ cd hellowebapp
 ```
 
 If you need a command line review, `mkdir` creates folders, and `cd` changes
@@ -28,13 +29,13 @@ Now that you're within your empty project folder, create your virtual
 environment using virtualenv with this command:
 
 ```
-virtualenv venv
+$ virtualenv venv
 ```
 
 And then activate the environment:
 
 ```
-source venv/bin/activate
+$ source venv/bin/activate
 ```
 
 Now you're in your bubble so we can start installing project specific utilities.
@@ -47,7 +48,7 @@ command line, making sure you're in your project folder and the virtual
 environment is activated:
 
 ```
-pip install Django==1.7.1
+$ pip install Django==1.7.1
 ```
 
 We're telling pip to install a specific version of Django, in case Django
@@ -59,7 +60,7 @@ We also want to start our version control system. Now that we're in our project
 folder, run this command to start git:
 
 ```
-git init
+$ git init
 ```
 
 ### Start your Django project
@@ -69,7 +70,7 @@ need for our web app. In your command line (again, in your project folder with
 your environment activated):
 
 ```
-django-admin.py startproject hellowebapp .
+$ django-admin.py startproject hellowebapp .
 ```
 
 This is going to start a Django project in your currect directory. 
@@ -112,7 +113,7 @@ time.
 In your top level folder (the one with manage.py in it), run this command:
 
 ```
-django-admin.py startapp collection
+$ django-admin.py startapp collection
 ```
 
 Like before, `django-admin.py` is the script, `startapp` is the command, and
@@ -175,7 +176,7 @@ all your dynamic information is stored) managable. We need to run the initial
 migration before we start the app, so in your top level folder (the one with manage.py in it), type this in:
 
 ```
-python manage.py migrate
+$ python manage.py migrate
 ```
 
 It's going to create your database automatically for you and port over some
@@ -189,7 +190,7 @@ Want to see if everything worked? In your terminal, head over to your top level
 hellowebapp folder, and run this command:
 
 ```
-python manage.py runserver
+$ python manage.py runserver
 ```
 
 ...and you'll see the local Django development server starting, which'll serve

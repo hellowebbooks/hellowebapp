@@ -28,7 +28,7 @@ virtualenv.](https://github.com/kennethreitz/python-guide/blob/master/docs/dev/v
 
 ## Installing msysgit
 
-Hello Web App uses unix commands like **touch** to create files from the command
+Hello Web App uses unix commands like *touch* to create files from the command
 line, which doesn't exist on Windows. We need git anyways for our project, so
 install [msysgit](https://msysgit.github.io/) which'll install git on your
 computer as well as allow you to use unix commands like *touch*.

@@ -15,8 +15,8 @@ Unfortunately the native Python that comes on Macs isn't great for development,
 so we'll need to install GCC, which'll set your computer up to be able to
 download Python.
 
-**Do you have XCode installed already? If so, skip this section. Don't know what
-I mean? You likely don't have it installed.**
+*Do you have XCode installed already? If so, skip this section. Don't know what
+I mean? You likely don't have it installed.*
 
 * Mac OS X 10.9 / Mavericks: [Follow this super simple guide to install Command
   Line Tools from the command line](http://www.computersnyou.com/2025/2013/06/install-command-line-tools-in-osx-10-9-mavericks-how-to/).
@@ -25,7 +25,7 @@ I mean? You likely don't have it installed.**
 
 ## Installing Homebrew
 
-[Homebrew](http://brew.sh/) is a "package manager", which'll allow you to download and install
+[Homebrew](http://brew.sh/) is a *package manager*, which'll allow you to download and install
 packages like Python directly from the command line. 
 
 Open up your terminal and paste this in:

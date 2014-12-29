@@ -42,8 +42,8 @@ Follow and ask me questions on Twitter ([@limedaring](http://twitter.com/limedar
 ### Kickstarter!
 
 [Hello Web App successfully raised funds with
-Kickstarter!](https://www.kickstarter.com/projects/1868398473/hello-web-app-intro-to-building-web-apps-with-djan),
-Thank you to *all* of our supporters.
+Kickstarter](https://www.kickstarter.com/projects/1868398473/hello-web-app-intro-to-building-web-apps-with-djan)
+- thank you to *all* of our supporters.
 
 ### License
 

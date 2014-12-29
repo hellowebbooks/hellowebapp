@@ -9,7 +9,7 @@ Course](http://cli.learncodethehardway.org/book/) by the same author who wrote
 [Learn Python the Hard Way](learnpythonthehardway.org). Should only take a day
 or so to go through all the lessons.
 
-## Installing the correct version of Python
+## Installing XCode
 
 Unfortunately the native Python that comes on Macs isn't great for development,
 so we'll need to install GCC, which'll set your computer up to be able to
@@ -114,4 +114,5 @@ You're finished setting up your system!
 
 But wait, you may be thinking - what about installing Django? We're going to
 install Django on a project-by-project basis (within the virtual environment
-provided by virtualenv), so we'll cover that in the next document. 
+provided by virtualenv). [Follow those instructions
+here.](https://github.com/limedaring/HelloWebApp/blob/master/installation-instructions/starting-your-project.md)

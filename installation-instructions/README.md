@@ -1,19 +1,19 @@
 ## Python and Django installation instructions
 
-As compared to working with HTML/CSS, we'll need to install Python, Django, and
-other utilities to your computer before being able to work on our web app!
+We'll need to install Python, Django, and a few other utilities to your computer
+before being able to build our web app!
 
-### Python installation docs:
+### Installing Python
 
 * [Mac OS X](https://github.com/limedaring/HelloWebApp/blob/master/installation-instructions/python-installation-mac.md)
-* Windows (coming soon - [in the meanwhile, use this guide](http://docs.python-guide.org/en/latest/starting/install/win/).)
+* [Windows](https://github.com/limedaring/HelloWebApp/blob/master/installation-instructions/python-installation-windows.md)
 * Linux (coming soon - [in the meanwhile, use this guide](http://docs.python-guide.org/en/latest/starting/install/linux/).)
 
-### Installing Django and starting your project
+### Installing Django
 
-* [See this tutorial!](https://github.com/limedaring/HelloWebApp/blob/master/installation-instructions/starting-your-project.md)
+* [Install Django and start your project](https://github.com/limedaring/HelloWebApp/blob/master/installation-instructions/starting-your-project.md)
 
 - - -
 
 Any problems with installation or have any questions? Feel free to email me at
-[hi@limedaring.com](mailto:hi@limedaring.com) any time!
+[hi@limedaring.com](mailto:hi@limedaring.com) any time.

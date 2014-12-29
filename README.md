@@ -7,8 +7,11 @@ Hi, I'm Tracy! This is the GitHub repository for [HelloWebApp.com](http://hellow
 Starting your project:
 
 * [How to install Python](https://github.com/limedaring/HelloWebApp/tree/master/installation-instructions)
-* [Learning Python resources](https://github.com/limedaring/HelloWebApp/tree/master/python-tips) - Must have very basic Python and logic knowledge before jumping into Hello Web App.
 * [Starting your Django project](https://github.com/limedaring/HelloWebApp/blob/master/installation-instructions/starting-your-project.md)
+
+Learning Python (Must have very basic Python and logic knowledge before jumping
+into Hello Web App):
+* [Python tips and resources](https://github.com/limedaring/HelloWebApp/tree/master/python-tips)
 
 Walk through the code in Hello Web App's chapters here:
 
@@ -19,12 +22,6 @@ Miscellaneous help:
 * [Command line tips](https://github.com/limedaring/HelloWebApp/tree/master/command-line-tips)
 * [Using Git](https://github.com/limedaring/HelloWebApp/tree/master/git-tips)
 * [IRC tips](https://github.com/limedaring/HelloWebApp/tree/master/irc-tips)
-
-### Kickstarter!
-
-[Hello Web App successfully raised funds with
-Kickstarter!](https://www.kickstarter.com/projects/1868398473/hello-web-app-intro-to-building-web-apps-with-djan),
-Thank you to *all* of our supporters.
 
 ### Introduction to Hello Web App 
 
@@ -41,6 +38,12 @@ Requirements will be a very basic overview of Python and programming concepts an
 The e-book will also be released DRM-free.
 
 Follow and ask me questions on Twitter ([@limedaring](http://twitter.com/limedaring)) and follow the project directly at [HelloWebApp.com](http://hellowebapp.com).
+
+### Kickstarter!
+
+[Hello Web App successfully raised funds with
+Kickstarter!](https://www.kickstarter.com/projects/1868398473/hello-web-app-intro-to-building-web-apps-with-djan),
+Thank you to *all* of our supporters.
 
 ### License
 

@@ -98,7 +98,7 @@ The hellowebapp folder is your top level folder.
 * `manage.py`: We won't edit this file, but will use this file in the command line
   to interact with your project. You'll see it in action soon.
 * The inner `hellowebapp` folder holds your project.
-* `__init__.py`: Ignorable - tells Python and that this is a Python package.
+* `__init__.py`: Ignorable - tells Python that this is a Python package.
 * `settings.py`: Aptly named - contains your settings.
 * `urls.py`: URL declarations for the project. Important and we'll go over this
   soon.

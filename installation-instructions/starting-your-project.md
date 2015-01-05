@@ -154,7 +154,7 @@ We need to tell the project that we've added an app to it.
 Open up your `settings.py` file (which is under your internal `hellowebapp`
 folder, see the directory tree above).
 
-Find the `INSTALLED_APPS` and add the name of your app to the end of the list
+Find the `INSTALLED_APPS` and add the name of your app to the beginning of the list
 (don't forget the trailing comma):
 
 ``` python

@@ -9,26 +9,40 @@ Course](http://cli.learncodethehardway.org/book/) by the same author who wrote
 [Learn Python the Hard Way](learnpythonthehardway.org). Should only take a day
 or so to go through all the lessons.
 
-## Installing Setuptools
+## About Linux Distributions
 
-Ubuntu and Fedora come with the latest versions of Python pre-installed, which means you don't need to install Python at all. However, [Setuptools](https://pypi.python.org/pypi/setuptools#unix-wget) is a fairly important Python package, which you should install before you do anything else. 
-
-```
-wget https://bootstrap.pypa.io/ez_setup.py -O - | python
-```
-
-if you get an error, you might have to invoke your sudo privileges to install:
-
-```
-wget https://bootstrap.pypa.io/ez_setup.py -O - | sudo python
-```
+There are quite a number of different flavors of Linux. The two most common types are Debian-Based, and Fedora. Be sure to find out what type of distribution you have before proceeding. If you have Ubuntu or Mint, follow the instructions for Debian-based distributions. If you have Fedora, follow the instructions for Fedora.
 
 ## Making sure everything is up to date
 
-Next, we need to make sure that everything in our system is up to date before we install any packages.
+First, we should make sure that everything in our system is up to date before we install any packages.
+
+On Debian-based distributions:
 
 ```
-apt-get update
+sudo apt-get update
+```
+
+On Fedora:
+```
+yum check-update
+```
+
+On Debian-based distributions, you'll have to use sudo (super user do) when you install the packages listed on this page. Be careful when using sudo, as you're calling super-user rights which can land you in hot water if you're not sure what you're doing. 
+
+## Installing Setuptools
+
+Debian-based and Fedora distributions come with Python pre-installed, which means you don't need to install Python at all. However, [Setuptools](https://pypi.python.org/pypi/setuptools#unix-wget) is a fairly important Python package, which you should install before you do anything else. 
+
+On Debian-based distributions: 
+
+```
+sudo apt-get install python-setuptools
+```
+
+On Fedora:
+```
+yum install python-setuptools
 ```
 
 ## Installing git
@@ -40,10 +54,15 @@ breaks. git also works with GitHub, so you can save your project to the
 "cloud", backing it up as well as allowing others to work on the same project
 with you.
 
-Since we have Homebrew installed, it's easy to install git:
+On Debian-based distributions:
 
 ```
-apt-get install git
+sudo apt-get install git
+```
+
+On Fedora:
+```
+yum install git
 ```
 
 We'll go over some of these basics in the book, but if you'd like to do some
@@ -53,8 +72,10 @@ guide](http://git-scm.com/book/en/Git-Basics).
 ## Installing pip
 
 [pip](http://www.pip-installer.org/en/latest/) is essentially a package manager for Python packages. 
+
+On Debian-based distributions:
 ```
-apt-get install python-pip
+sudo apt-get install python-pip
 ```
 
 ## Installing virtualenv
@@ -74,7 +95,7 @@ another on 1.7, and they won't interfere with eachother.
 We already have pip, so we'll use it to install virtualenv:
 
 ```
-pip install virtualenv
+sudo pip install virtualenv
 ```
 
 We'll go over this again when we officially start our Hello Web App project, but

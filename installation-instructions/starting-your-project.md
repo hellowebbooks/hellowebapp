@@ -48,7 +48,7 @@ command line, making sure you're in your project folder and the virtual
 environment is activated:
 
 ```
-$ pip install Django==1.7.1
+$ pip install Django==1.7.3
 ```
 
 We're telling pip to install a specific version of Django, in case Django
@@ -62,6 +62,12 @@ folder, run this command to start git:
 ```
 $ git init
 ```
+
+Running this command in your project folder will make the entire folder and it's
+contents part of a new Git repository. For more about git and why we should use
+it (spoiler: version control is very important *and* it's needed for deployment
+to Heroku), see the [Git tips page
+here](https://github.com/limedaring/HelloWebApp/tree/master/git-tips).
 
 ### Start your Django project
 

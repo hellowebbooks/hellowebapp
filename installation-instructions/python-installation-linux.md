@@ -28,7 +28,7 @@ On Fedora:
 yum check-update
 ```
 
-On Debian-based distributions, you'll have to use sudo (super user do) when you install the packages listed on this page. Be careful when using sudo, as you're calling super-user rights which can land you in hot water if you're not sure what you're doing. 
+You'll have to use sudo (super user do) when you install the packages listed on this page. Be careful when using sudo, as you're calling super-user rights which can land you in hot water if you're not sure what you're doing. 
 
 ## Installing Setuptools
 
@@ -42,7 +42,7 @@ sudo apt-get install python-setuptools
 
 On Fedora:
 ```
-yum install python-setuptools
+sudo yum install python-setuptools
 ```
 
 ## Installing git
@@ -62,7 +62,7 @@ sudo apt-get install git
 
 On Fedora:
 ```
-yum install git
+sudo yum install git
 ```
 
 We'll go over some of these basics in the book, but if you'd like to do some
@@ -76,6 +76,11 @@ guide](http://git-scm.com/book/en/Git-Basics).
 On Debian-based distributions:
 ```
 sudo apt-get install python-pip
+```
+
+On Fedora:
+```
+sudo yum install python-pip
 ```
 
 ## Installing virtualenv

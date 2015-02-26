@@ -1,4 +1,4 @@
-# Installing Python on Mac
+# Installing Python 2.7 on Mac
 
 ## Using the command line
 
@@ -48,7 +48,7 @@ echo 'export PATH=/usr/local/bin:/usr/local/sbin:$PATH' >> ~/.bashrc
 
 ## Installing Python
 
-Now that we have Homebrew, we'll use it to download Python 2.7, which is the
+Now that we have Homebrew, we'll use it to download **Python 2.7**, which is the
 default Python version installed by Homebrew.
 
 ```
@@ -107,6 +107,9 @@ activate the environment, you'll run `source venv/bin/activate`, and
 `deactivate` to deactivate. While in the environment, we can use pip to install
 and uninstall everything we need without worrying about it conflicting with any
 other project.
+
+You'll know that you're in your virtual environment by the `(venv)` at the
+beginning of your command line - for example, mine says:
 
 - - -
 

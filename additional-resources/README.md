@@ -33,6 +33,9 @@ Coursera lists a lot of great programming courses — Python, Django, progra
 **Treehouse**: [http://teamtreehouse.com/](http://teamtreehouse.com/)
 Another great learning site with tutorials from Python, HTML and CSS, and more. Not free - $25/month after a free one month trial.
 
+Other options:
+[http://thenextweb.com/dd/2012/10/21/so-you-want-to-be-a-programmer-huh-heres-25-ways-to-learn-online/](http://thenextweb.com/dd/2012/10/21/so-you-want-to-be-a-programmer-huh-heres-25-ways-to-learn-online/)
+
 ## HTML and CSS
 
 ### Books

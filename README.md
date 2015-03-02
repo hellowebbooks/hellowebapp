@@ -18,6 +18,7 @@ Walk through the code in Hello Web App's chapters here:
 
 Miscellaneous help:
 
+* [Discussion forum](http://discuss.hellowebapp.com/)
 * [Command line tips](https://github.com/limedaring/HelloWebApp/tree/master/command-line-tips)
 * [Using Git](https://github.com/limedaring/HelloWebApp/tree/master/git-tips)
 * [IRC tips](https://github.com/limedaring/HelloWebApp/tree/master/irc-tips)

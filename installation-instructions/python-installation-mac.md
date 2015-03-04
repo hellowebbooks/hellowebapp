@@ -31,7 +31,7 @@ packages like Python directly from the command line.
 Open up your terminal and paste this in:
 
 ```
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 The script should walk you through the rest of installing Homebrew. The last

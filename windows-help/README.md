@@ -5,7 +5,7 @@ See this document:
 
 # Command Line
 
-If you have Windows 7 or later, you can use PowerShell. The above installation
+If you have Windows 7 or later, you can use PowerShell ([tutorial here](http://cli.learncodethehardway.org/book/ex1.html#windows)). The above installation
 instructions also install mingw, which can be used as well.
 
 # Bugs

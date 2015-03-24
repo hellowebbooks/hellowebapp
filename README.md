@@ -22,6 +22,7 @@ Miscellaneous help:
 * [Command line tips](https://github.com/limedaring/HelloWebApp/tree/master/command-line-tips)
 * [Using Git](https://github.com/limedaring/HelloWebApp/tree/master/git-tips)
 * [IRC tips](https://github.com/limedaring/HelloWebApp/tree/master/irc-tips)
+* [Windows help](https://github.com/limedaring/HelloWebApp/tree/master/windows-help)
 
 After the book:
 

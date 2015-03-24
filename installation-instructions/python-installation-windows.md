@@ -1,8 +1,9 @@
 # Installing Python 2.7 on Windows
 
 First off, a disclaimer - development on Windows will be harder than if you were
-on Linux or Mac. If you can, I'd recommend installing Linux on your systerm and
-using that instead. 
+on Linux or Mac. If you can, I'd recommend installing Linux your systerm or in a
+[virtual machine like VirtualBox](https://help.ubuntu.com/community/VirtualBox)
+and using that instead. 
 
 ## Using the command line
 

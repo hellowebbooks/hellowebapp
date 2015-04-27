@@ -8,6 +8,7 @@ before being able to build our web app!
 * [Mac OS X](https://github.com/limedaring/HelloWebApp/blob/master/installation-instructions/python-installation-mac.md)
 * [Windows](https://github.com/limedaring/HelloWebApp/blob/master/installation-instructions/python-installation-windows.md)
 * Linux (coming soon - [in the meanwhile, use this guide](http://docs.python-guide.org/en/latest/starting/install/linux/).)
+* [Using a Virtual Machine (Juice Box)](https://jpadilla.github.io/juicebox/#get-started) - especially handy if you're using Windows.
 
 ### Installing Django
 

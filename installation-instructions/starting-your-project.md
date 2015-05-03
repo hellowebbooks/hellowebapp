@@ -48,11 +48,17 @@ command line, making sure you're in your project folder and the virtual
 environment is activated:
 
 ```
-$ pip install Django==1.7.5
+$ pip install Django==1.7.8
 ```
 
 We're telling pip to install a specific version of Django, in case Django
 releases a new version that this tutorial doesn't cover.
+
+*Note: Django 1.8 has been released. The current version of Hello Web App has
+been written for 1.7, but the changes between Django versions are minimal (at
+least concerning what Hello Web App covers. If you feel more comfortable
+installing the latest version of Django (1.8.1), you can do so as 1.8.1 should
+be backwards compatible with Hello Web App's code.*
 
 ### Start git
 

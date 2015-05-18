@@ -100,16 +100,9 @@ We already have pip, so we'll use it to install virtualenv:
 pip install virtualenv
 ```
 
-We'll go over this again when we officially start our Hello Web App project, but
-to use virtualenv, you'll move into the directory where your project lies and
-run `virtualenv --distribute venv`, which'll create the virtual environment.  To
-activate the environment, you'll run `source venv/bin/activate`, and
-`deactivate` to deactivate. While in the environment, we can use pip to install
-and uninstall everything we need without worrying about it conflicting with any
-other project.
-
-You'll know that you're in your virtual environment by the `(venv)` at the
-beginning of your command line - for example, mine says:
+Head to the Django installation instructions below - it'll get you started with
+creating your Django project and starting your virtual environment within that
+folder.
 
 - - -
 

@@ -26,17 +26,28 @@ of a folder.
 ### Start your virtual environment
 
 Now that you're within your empty project folder, create your virtual
-environment using virtualenv with this command:
+environment. We'll be using virtualenv, [which we installed after we installed
+Python](https://github.com/hellowebapp/hellowebapp/tree/master/installation-instructions).
 
 ```
-$ virtualenv venv
+projects/hellowebapp $ virtualenv venv
 ```
 
 And then activate the environment:
 
 ```
-$ source venv/bin/activate
+projects/hellowebapp $ source venv/bin/activate
 ```
+
+You should see something like this in your command line before the folder
+structure - the (venv) indicates you're in the virtual environment:
+
+```
+(venv)limedaring@Orion ~/projects/hellowebapp $ 
+```
+
+(Orion is my computer's name and limedaring is my username - your exact setup
+will be different.)
 
 Now you're in your bubble so we can start installing project specific utilities.
 If you ever need to deactivate your environment, run `deactivate`.

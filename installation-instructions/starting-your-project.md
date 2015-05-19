@@ -19,7 +19,7 @@ projects $ cd hellowebapp
 
 If you need a command line review, `mkdir` creates folders, and `cd` changes
 directories into that folder. If you ever get lost, your terminal should show
-what directory your in, and running `ls` (on Mac or Linux, `dir` on Windows),
+which directory you're in, and running `ls` (on Mac or Linux, `dir` on Windows),
 will list out the contents of the folder you're in. Use `cd ..` to back up out
 of a folder.
 
@@ -39,6 +39,7 @@ And then activate the environment:
 projects/hellowebapp $ source venv/bin/activate
 ```
 
+<<<<<<< HEAD
 You should see something like this in your command line before the folder
 structure - the (venv) indicates you're in the virtual environment:
 
@@ -49,12 +50,12 @@ structure - the (venv) indicates you're in the virtual environment:
 (Orion is my computer's name and limedaring is my username - your exact setup
 will be different.)
 
-Now you're in your bubble so we can start installing project specific utilities.
+Now you're in your bubble, so we can start installing project-specific utilities.
 If you ever need to deactivate your environment, run `deactivate`.
 
 ### Install Django
 
-Finally it's Django time! We'll use pip to install Django, so run this in your
+Finally, it's Django time! We'll use pip to install Django, so run this in your
 command line, making sure you're in your project folder and the virtual
 environment is activated:
 
@@ -68,7 +69,7 @@ releases a new version that this tutorial doesn't cover.
 *Note: Django 1.8 has been released. The current version of Hello Web App has
 been written for 1.7, but the changes between Django versions are minimal (at
 least concerning what Hello Web App covers.) If you feel more comfortable
-installing the latest version of Django (1.8.1), you can do so as 1.8.1 should
+installing the latest version of Django (1.8.1), you can do so, as 1.8.1 should
 be backwards compatible with Hello Web App's code.*
 
 ### Start git
@@ -80,7 +81,7 @@ folder, run this command to start git:
 $ git init
 ```
 
-Running this command in your project folder will make the entire folder and it's
+Running this command in your project folder will make the entire folder and its
 contents part of a new Git repository. For more about git and why we should use
 it (spoiler: version control is very important *and* it's needed for deployment
 to Heroku), see the [Git tips page
@@ -99,7 +100,7 @@ $ django-admin.py startproject hellowebapp .
 This is going to start a Django project in your currect directory. 
 
 * django-admin.py: The script we'll be running.
-* startproject: the specific utility we're using.
+* startproject: The specific utility we're using.
 * hellowebapp: The name we're giving the project.
 * . : The location where we're starting the project, with `.` denoting the
   current directory.
@@ -130,7 +131,7 @@ The hellowebapp folder is your top level folder.
 ### Create a Django app
 
 A project can run many apps (all doing something distinct), but we're just going
-to focus on having just one for now, which is all you'll need for a very long
+to focus on having one for now, which is all you'll need for a very long
 time.
 
 In your top level folder (the one with manage.py in it), run this command:
@@ -210,7 +211,7 @@ Hello Web App.
 ## Start your Django web app
 
 Want to see if everything worked? In your terminal, head over to your top level
-hellowebapp folder, and run this command:
+hellowebapp folder and run this command:
 
 ```
 $ python manage.py runserver
@@ -229,5 +230,5 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 ```
 
-Now just head to your favorite web browser, and visit http://localhost:8000 and
+Now just head to your favorite web browser and visit http://localhost:8000, where
 you'll see a "Welcome to Django" page. Congrats on starting Django!

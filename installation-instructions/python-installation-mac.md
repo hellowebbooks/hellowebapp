@@ -6,7 +6,7 @@ First, are you comfortable with the command line? It's infinitely simpler to
 download and install utilities for your Mac using the command line, so if you
 haven't used the command line before, try out [The Command Line Crash
 Course](http://cli.learncodethehardway.org/book/) by the same author who wrote
-[Learn Python the Hard Way](learnpythonthehardway.org). Should only take a day
+[Learn Python the Hard Way](http://learnpythonthehardway.org). Should only take a day
 or so to go through all the lessons.
 
 ## Installing XCode
@@ -83,7 +83,7 @@ Yay!
 ## Installing virtualenv
 
 Another thing we need installed is
-[virtualenv](http://www.virtualenv.org/en/latest/virtualenv.html). virtualenv
+[virtualenv](http://www.virtualenv.org/). virtualenv
 allows you to set up virtual environments for all of your programming projects -
 essentially, a bubble which wraps around projects and their package installs,
 preventing them from interfering with each other. 

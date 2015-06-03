@@ -9,6 +9,13 @@ Course](http://cli.learncodethehardway.org/book/) by the same author who wrote
 [Learn Python the Hard Way](http://learnpythonthehardway.org). Should only take a day
 or so to go through all the lessons.
 
+If using the command line feels a bit scary, one thing to keep in mind is that
+this is how computer programmers back in the day used to interface with computer
+elements. All our modern interfaces and GUIs ("Graphical User Interfaces", a
+common abbreviation in programmer worlds) are built on top of computer commands
+like we'll be typing in. We're just moving back to an earlier time, typing our
+commands rather than clicking buttons.
+
 ## Installing XCode
 
 Unfortunately the native Python that comes on Macs isn't great for development,
@@ -34,11 +41,24 @@ Open up your terminal and paste this in:
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-The script should walk you through the rest of installing Homebrew. The last
-thing we need to do is insert the Homebrew directory at the top your `PATH`
-environment variable. The `$PATH` environment variable is essentially a list of
-locations your terminal looks for commands in, and we want Homebrew to be at the
-top. 
+The script should walk you through the rest of installing Homebrew. 
+
+There might be some warnings as it's installing, particularly around the command
+"sudo".  Sudo (meaning "superuser do") is an "admin" command that'll require
+your computer's password. It's the equivlant of saying, "I am the admin and I
+want to run this command" and then the computer requires your password in order
+to ensure that you're indeed the admin. Homebrew needs access to the admin bits
+of your computer in order to install programs on your behalf, which is why the
+computer requires you to be the admin in order to install.
+
+Note the warning about improperly using the sudo command because you shouldn't
+use it willy-nilly (never paste in random sudo commands that you find in the
+internet without understanding what they do).
+
+The last thing we need to do is insert the Homebrew directory at the top your
+`PATH` environment variable. The `$PATH` environment variable is essentially a
+list of locations your terminal looks for commands in, and we want Homebrew to
+be at the top. 
 
 Run this command in your terminal, which'll do the above for you:
 

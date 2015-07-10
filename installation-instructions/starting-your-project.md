@@ -225,10 +225,10 @@ Validating models...
 
 0 errors found
 March 26, 2014 - 15:50:53
-Django version 1.6, using settings 'mysite.settings'
+Django version 1.7.8, using settings 'mysite.settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 ```
 
-Now just head to your favorite web browser and visit http://localhost:8000, where
+Now just head to your favorite web browser and visit [http://127.0.0.1:8000](http://127.0.0.1:8000), where
 you'll see a "Welcome to Django" page. Congrats on starting Django!

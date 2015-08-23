@@ -39,7 +39,6 @@ And then activate the environment:
 projects/hellowebapp $ source venv/bin/activate
 ```
 
-<<<<<<< HEAD
 You should see something like this in your command line before the folder
 structure - the (venv) indicates you're in the virtual environment:
 

@@ -28,6 +28,8 @@ of a folder.
 Now that you're within your empty project folder, create your virtual
 environment. We'll be using virtualenv, [which we installed after we installed
 Python](https://github.com/hellowebapp/hellowebapp/tree/master/installation-instructions).
+(With Conda [the instructions](https://github.com/limedaring/HelloWebApp/tree/master/installation-instructions/conda-virtualenv.md)
+are a little different.)
 
 ```
 projects/hellowebapp $ virtualenv venv
@@ -43,7 +45,7 @@ You should see something like this in your command line before the folder
 structure - the (venv) indicates you're in the virtual environment:
 
 ```
-(venv)limedaring@Orion ~/projects/hellowebapp $ 
+(venv)limedaring@Orion ~/projects/hellowebapp $
 ```
 
 (Orion is my computer's name and limedaring is my username - your exact setup
@@ -52,7 +54,7 @@ will be different.)
 Now you're in your bubble, so we can start installing project-specific utilities.
 If you ever need to deactivate your environment, run `deactivate`.
 
-### Install Django
+###<a id="django"></a> Install Django
 
 Finally, it's Django time! We'll use pip to install Django, so run this in your
 command line, making sure you're in your project folder and the virtual
@@ -96,7 +98,7 @@ your environment activated):
 $ django-admin.py startproject hellowebapp .
 ```
 
-This is going to start a Django project in your currect directory. 
+This is going to start a Django project in your currect directory.
 
 * django-admin.py: The script we'll be running.
 * startproject: The specific utility we're using.
@@ -116,7 +118,7 @@ hellowebapp/
         wsgi.py
 ```
 
-The hellowebapp folder is your top level folder. 
+The hellowebapp folder is your top level folder.
 
 * `manage.py`: We won't edit this file, but will use this file in the command line
   to interact with your project. You'll see it in action soon.

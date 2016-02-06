@@ -54,7 +54,7 @@ will be different.)
 Now you're in your bubble, so we can start installing project-specific utilities.
 If you ever need to deactivate your environment, run `deactivate`.
 
-###<a id="django"></a> Install Django
+### Install Django
 
 Finally, it's Django time! We'll use pip to install Django, so run this in your
 command line, making sure you're in your project folder and the virtual

@@ -24,4 +24,4 @@ If you ever need to deactivate your environment, run
 
     source deactivate
 
-And now on to [installing Django](https://github.com/hellowebapp/hellowebapp/tree/master/installation-instructions/starting-your-project.md#django).
+And now on to [installing Django](https://github.com/hellowebapp/hellowebapp/tree/master/installation-instructions/starting-your-project.md#install-django).

@@ -28,7 +28,7 @@ of a folder.
 Now that you're within your empty project folder, create your virtual
 environment. We'll be using virtualenv, [which we installed after we installed
 Python](https://github.com/hellowebapp/hellowebapp/tree/master/installation-instructions).
-(With Conda [the instructions](https://github.com/limedaring/HelloWebApp/tree/master/installation-instructions/conda-virtualenv.md)
+(With Conda [the instructions](https://github.com/hellowebapp/hellowebapp/tree/master/installation-instructions/conda-virtualenv.md)
 are a little different.)
 
 ```

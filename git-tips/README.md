@@ -29,6 +29,41 @@ individual files as well.
 can use `git commit -a -m "Message!"` to do that (-a commits all files, -m
 indicates that you're adding a message.)
 
+## Your .gitignore file!
+
+Git will track everything that is in your project, even things you don't really
+need to (like the stuff you install via pip).
+
+You can add a ".gitignore" file to your project, which tells git to ignore
+certain files. I created one here that works for the project that is built with
+Hello Web App:
+
+[LINK COMING]
+
+Add this file to your top level directory like so:
+
+```
+hellowebapp/
+    .gitignore
+    manage.py
+    collection/
+        __init__.py
+        admin.py
+        models.py
+        tests.py
+        views.py
+    hellowebapp/
+        __init__.py
+        settings.py
+        urls.py
+        wsgi.py
+```
+
+(Make sure to keep the dot in front!)
+
+Now, when you track your files, you won't track unnecessary files.
+
+
 ## More!
 
 There are pretty much a billion other awesome commands, [check them out

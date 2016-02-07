@@ -38,7 +38,7 @@ You can add a ".gitignore" file to your project, which tells git to ignore
 certain files. I created one here that works for the project that is built with
 Hello Web App:
 
-[LINK COMING]
+[https://raw.githubusercontent.com/hellowebapp/hellowebapp/master/git-tips/.gitignore](https://raw.githubusercontent.com/hellowebapp/hellowebapp/master/git-tips/.gitignore)
 
 Add this file to your top level directory like so:
 

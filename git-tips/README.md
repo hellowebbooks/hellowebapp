@@ -32,7 +32,7 @@ indicates that you're adding a message.)
 ## Your .gitignore file!
 
 Git will track everything that is in your project, even things you don't really
-need to (like the stuff you install via pip).
+need (like the stuff you install via pip).
 
 You can add a ".gitignore" file to your project, which tells git to ignore
 certain files. I created one here that works for the project that is built with

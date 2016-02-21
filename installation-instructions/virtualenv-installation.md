@@ -8,7 +8,9 @@ Without a virtual environment, we'd have Django 1.9.2 installed *globally* on ou
 
 **With a virtual environment, every project can have a separate version of Django and other plugins that you install.** You can install Django 1.9 on one project, and down the line, start another project with Django 1.10. Every project can work off of whatever version of whatever you install, keeping them separate from each other. This is very important when you're programming.
 
-We should already have pip, so we'll use it to install virtualenv *(again, don't paste in the* `$` *)*:
+We should already have pip, so we'll use it to install virtualenv *(don't paste
+in the* `$` *- it's an indicator that the command below is meant to be run on
+your command line utility.)*:
 
 ```
 $ pip install virtualenv

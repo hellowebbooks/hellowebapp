@@ -13,8 +13,8 @@ this individual project:
 ```
 $ mkdir projects
 $ cd projects
-projects $ mkdir hellowebapp
-projects $ cd hellowebapp
+projects $ mkdir myhellowebapp
+projects $ cd myhellowebapp
 ```
 
 If you need a command line review, `mkdir` creates folders, and `cd` changes
@@ -32,20 +32,20 @@ Python](https://github.com/hellowebapp/hellowebapp/tree/master/installation-inst
 are a little different.)
 
 ```
-projects/hellowebapp $ virtualenv venv
+projects/myhellowebapp $ virtualenv venv
 ```
 
 And then activate the environment:
 
 ```
-projects/hellowebapp $ source venv/bin/activate
+projects/myhellowebapp $ source venv/bin/activate
 ```
 
 You should see something like this in your command line before the folder
 structure - the (venv) indicates you're in the virtual environment:
 
 ```
-(venv)limedaring@Orion ~/projects/hellowebapp $
+(venv)limedaring@Orion ~/projects/myhellowebapp $
 ```
 
 (Orion is my computer's name and limedaring is my username - your exact setup
@@ -66,12 +66,6 @@ $ pip install Django==1.8.4
 
 We're telling pip to install a specific version of Django, in case Django
 releases a new version that this tutorial doesn't cover.
-
-*Note: Django 1.8 has been released. The current version of Hello Web App has
-been written for 1.7, but the changes between Django versions are minimal (at
-least concerning what Hello Web App covers.) If you feel more comfortable
-installing the latest version of Django (1.8.1), you can do so, as 1.8.1 should
-be backwards compatible with Hello Web App's code.*
 
 ### Start git
 
@@ -109,7 +103,7 @@ This is going to start a Django project in your currect directory.
 `startproject` will create these files and folders:
 
 ```
-hellowebapp/
+myhellowebapp/
     manage.py
     hellowebapp/
         __init__.py
@@ -118,7 +112,7 @@ hellowebapp/
         wsgi.py
 ```
 
-The hellowebapp folder is your top level folder.
+The myhellowebapp folder is your top level folder.
 
 * `manage.py`: We won't edit this file, but will use this file in the command line
   to interact with your project. You'll see it in action soon.
@@ -135,7 +129,7 @@ A project can run many apps (all doing something distinct), but we're just going
 to focus on having one for now, which is all you'll need for a very long
 time.
 
-In your top level folder (the one with manage.py in it), run this command:
+In your top level folder (the one with *manage.py* in it), run this command:
 
 ```
 $ django-admin.py startapp collection
@@ -147,7 +141,7 @@ Like before, `django-admin.py` is the script, `startapp` is the command, and
 `startapp` will create an additional folder and a few files:
 
 ```
-hellowebapp/
+myhellowebapp/
     manage.py
     collection/
         __init__.py
@@ -175,9 +169,9 @@ all later when we specifically start working with all those files.
 
 ### Add your new app to your settings file
 
-We need to tell the project that we've added an app to it.
-Open up your `settings.py` file (which is under your internal `hellowebapp`
-folder, see the directory tree above).
+We need to tell the project that we've added an app to it.  Open up your
+`settings.py` file (which is under your `hellowebapp` folder, see the directory
+tree above).
 
 Find the `INSTALLED_APPS` and add the name of your app to the beginning of the list
 (don't forget the trailing comma):
@@ -196,9 +190,10 @@ INSTALLED_APPS = (
 
 ## Set up your database
 
-Django 1.7 has some fancypants utilities built in to keep your database (where
+Django has some fancypants utilities built in to keep your database (where
 all your dynamic information is stored) managable. We need to run the initial
-migration before we start the app, so in your top level folder (the one with manage.py in it), type this in:
+migration before we start the app, so in your top level folder (the one with
+*manage.py* in it), type this in:
 
 ```
 $ python manage.py migrate
@@ -212,7 +207,8 @@ Hello Web App.
 ## Start your Django web app
 
 Want to see if everything worked? In your terminal, head over to your top level
-hellowebapp folder and run this command:
+myhellowebapp folder (make sure you're in the folder with *manage.py*) and run
+this command:
 
 ```
 $ python manage.py runserver
@@ -231,5 +227,6 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 ```
 
-Now just head to your favorite web browser and visit [http://127.0.0.1:8000](http://127.0.0.1:8000), where
-you'll see a "Welcome to Django" page. Congrats on starting Django!
+Now just head to your favorite web browser and visit
+[http://127.0.0.1:8000](http://127.0.0.1:8000), where you'll see a "Welcome to
+Django" page. Congrats on starting Django!

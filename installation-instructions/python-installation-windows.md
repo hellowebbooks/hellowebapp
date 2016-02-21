@@ -22,21 +22,24 @@ Windows](http://docs.python-guide.org/en/latest/starting/install/win/). This
 tutorial will also install *pip* on your computer, which is also needed by Hello
 Web App.
 
-Make sure to follow the instructions at the [end of the tutorial to install
-virtualenv.](https://github.com/kennethreitz/python-guide/blob/master/docs/dev/virtualenvs.rst)
-
 *(Thanks to Kenneth Reitz for these instructions.)*
 
-## Installing msysgit
+## Installing Virtualenv
+
+[Head over to this page which'll tell you about virtual environments and how to
+install
+Virtualenv.](https://github.com/limedaring/HelloWebApp/blob/master/installation-instructions/virtualenv-installation.md) 
+
+## Installing Git for Windows
 
 Hello Web App uses unix commands like *touch* to create files from the command
 line, which doesn't exist on Windows. We need git anyways for our project, so
-install [msysgit](https://msysgit.github.io/) which'll install git on your
-computer as well as allow you to use unix commands like *touch*.
+install [Git for Windows](https://git-for-windows.github.io/) which'll install
+git on your computer as well as allow you to use unix commands like *touch*.
 
 (If you need more here, [this is another tutorial with pretty detailed
 instructions on installing
-msysgit](http://lostechies.com/jasonmeridth/2009/06/01/git-for-windows-developers-git-series-part-1/).)
+Git for Windows](http://lostechies.com/jasonmeridth/2009/06/01/git-for-windows-developers-git-series-part-1/).)
 
 - - -
 

@@ -100,29 +100,11 @@ guide](http://git-scm.com/book/en/Git-Basics).
 Python packages, which was already installed when Homebrew installed Python.
 Yay!
 
-## Installing virtualenv
+## Installing Virtualenv
 
-Another thing we need installed is
-[virtualenv](http://www.virtualenv.org/). virtualenv
-allows you to set up virtual environments for all of your programming projects -
-essentially, a bubble which wraps around projects and their package installs,
-preventing them from interfering with each other. 
-
-For example, if you install Django 1.6 globally on your computer, every project
-will be using Django 1.6 - and when you upgrade to 1.7, you'll upgrade every
-project as well, potentially breaking them due to deprecated features.
-virtualenv keeps projects separate - you can have one project on Django 1.6 and
-another on 1.7, and they won't interfere with eachother.
-
-We already have pip, so we'll use it to install virtualenv:
-
-```
-pip install virtualenv
-```
-
-Head to the Django installation instructions below - it'll get you started with
-creating your Django project and starting your virtual environment within that
-folder.
+[Head over to this page which'll tell you about virtual environments and how to
+install
+Virtualenv.](https://github.com/limedaring/HelloWebApp/blob/master/installation-instructions/virtualenv-installation.md) 
 
 - - -
 

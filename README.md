@@ -1,31 +1,31 @@
 ## Hello Web App: Intro to Web App Development Using Python and Django
 
-This is the GitHub repository for [HelloWebApp.com](http://hellowebapp.com)'s
-files. 
+This is the GitHub repository for [Hello Web
+App](http://hellowebbook.com/learn-django)'s files. 
 
 Hello Web App is a book series dedicated to teaching beginner web app
 development. Written by a designer, it focuses on teaching the websites and
 templates first, slowly adding programming concepts over time -- perfect for
 anyone who is new to programming or has a background in web design.
 
-See [HelloWebApp.com](http://hellowebapp.com) for how to order (starts at $14.95
+See [HelloWebBooks.com](http://hellowebbooks.com) for how to order (starts at $14.95
 for eBook files), a blog with additional tutorials, and more information.
 
 ### Contents
 
 Starting your project:
 
-* [How to install Python](https://github.com/limedaring/HelloWebApp/tree/master/installation-instructions)
-* [Installing Virtualenv](https://github.com/hellowebapp/hellowebapp/blob/master/installation-instructions/virtualenv-installation.md)
-* [Starting your Django project](https://github.com/limedaring/HelloWebApp/blob/master/installation-instructions/starting-your-project.md)
+* [How to install Python](https://github.com/hellowebbooks/HelloWebApp/tree/master/installation-instructions)
+* [Installing Virtualenv](https://github.com/hellowebbooks/hellowebapp/blob/master/installation-instructions/virtualenv-installation.md)
+* [Starting your Django project](https://github.com/hellowebbooks/HelloWebApp/blob/master/installation-instructions/starting-your-project.md)
 
 Learning Python (You should have very basic Python and logic knowledge before jumping into Hello Web App):
-* [Python tips and resources](https://github.com/limedaring/HelloWebApp/tree/master/python-tips)
+* [Python tips and resources](https://github.com/hellowebbooks/HelloWebApp/tree/master/python-tips)
 
 Walk through the code in Hello Web App's chapters here (Intermediate Concepts
 coming soon):
 
-* [Hello Web App Code](https://github.com/limedaring/HelloWebApp-Code)
+* [Hello Web App Code](https://github.com/hellowebbooks/HelloWebApp-Code)
 
 Miscellaneous help:
 
@@ -55,12 +55,12 @@ virtual environments), and others. I also wanted to emphasize templates first -
 getting to the visual, web-app view first to see results rather than using the
 command line.
 
-[Hello Web App](http://hellowebapp.com/original) launched in May 2015 after a
-successful Kickstarter campaign. The book walks
-readers through creating a basic web app, from ideation to deployment.
+[Hello Web App](http://hellowebbooks.com/learn-django) launched in May 2015
+after a successful Kickstarter campaign. The book walks readers through creating
+a basic web app, from ideation to deployment.
 
 [Hello Web App: Intermediate
-Concepts](http://hellowebapp.com/intermediate-concepts) launched December 2015
+Concepts](http://hellowebbooks.com/django-intermediate-concepts) launched December 2015
 after another successful Kickstarter campaign (thanks again!) HWA:IC is for
 anyone who has a basic web app and would like to build more advanced features
 like adding payments with Stripe, user-uploaded images, an API, and more.

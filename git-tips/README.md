@@ -61,6 +61,13 @@ hellowebapp/
 
 (Make sure to keep the dot in front!)
 
+FYI, if you look at your project in Finder or by using something like `ls`
+(Mac/Linux) or `dir` (Windows) in your terminal, you might not see this new
+file. It's because files with a "." in front are, by default, hidden. 
+
+Use `ls -lah` (Mac/Linux) or `dir /a` (Windows) in your terminal to see your
+directory including those hidden files. 
+
 Now, when you track your files, you won't track unnecessary files.
 
 

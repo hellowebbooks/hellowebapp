@@ -146,6 +146,7 @@ myhellowebapp/
     collection/
         __init__.py
         admin.py
+        migrations/
         models.py
         tests.py
         views.py
